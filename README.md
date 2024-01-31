@@ -1,14 +1,10 @@
 # com-frontend-101
-this is the simple project to demonstrate the use of the following technologies:
 
-##frontend
-
-
-....
-
-###vachegeguchadze
+## frontend
 
 
-####HMTL
-####CSS
-####JAVASCRIPT
+#### HMTL
+
+#### CSS
+
+#### JAVASCRIPT
