@@ -1,7 +1,7 @@
 # com-frontend-101
 
-##frontend
+## frontend
 
-###vachegeguchadze
+### vachegeguchadze
 
-####HMTL
+#### HMTL
