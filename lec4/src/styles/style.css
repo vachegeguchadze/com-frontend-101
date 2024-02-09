@@ -82,8 +82,19 @@ a{
 }
 .btn:hover{
     background-color: red;
+    position: relative;
+    top: -10px;
+    transition: 0,5s;
 }
 input{
     width: 250px;
     height: 40px;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+.copyright{
+    color: white;
 }
