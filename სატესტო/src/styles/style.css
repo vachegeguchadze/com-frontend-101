@@ -12,7 +12,7 @@ a{
 .row{
     display: flex;
     justify-content: center;
-    gap: 8%;
+    gap: 5%;
 }
 .list-style{
     list-style: none;
@@ -39,6 +39,63 @@ a{
     color: green;
     text-align: center;
 }
-p{
-    color: red;
+.align-center{
+    align-items: center;
+    
+}
+.banner-text{
+    font-size: 20px;
+    font: 500;
+    text-align: center;
+}
+.col-3{
+    width: 80%;
+    border-radius: 50%;
+    height: 60px;
+    margin-bottom: 24px;
+
+}
+.image-container{
+    width: 100%;
+}
+.btn{
+    width: 100%;
+    height: 80px;
+    margin-top: 24px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: red;
+    position: relative;
+    top:  -5px;
+    box-shadow: 33px -11px 0px -1px rgba(0,0,0,0.73);
+-webkit-box-shadow: 33px -11px 0px -1px rgba(0,0,0,0.73);
+-moz-box-shadow: 33px -11px 0px -1px rgba(0,0,0,0.73);
+transition: 0,5s;
+}
+.textarea-container{
+    margin: 20px;
+}
+input{
+    width: 250px;
+    height: 40px;
+}
+textarea{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.copyright{
+    color: white;
+}
+.text-1{
+    color: brown;
 }
