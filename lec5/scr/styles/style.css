@@ -1,0 +1,59 @@
+.nav-lists li{
+    color:red
+}
+.container a:first-child{
+    color: red;
+}
+.container a:last-child{
+    color: green;
+}
+tr:nth-child(odd){
+    background-color: green;
+}
+tr:nth-child(even){
+    background-color: blue;
+}
+tr:nth-child(3){
+    background-color: red;
+}
+tr:nth-child(3n+1){
+    background-color: pink;
+}
+td:nth-child(even){
+    color: aqua;
+}
+:enabled{
+    border:2px solid green;
+    color: red;
+}
+:disabled{
+    border:2px solid green;
+}
+:checked + span {
+    color: red;
+    font-weight: bold;
+}
+p::first-letter{
+    color: red;
+    font-size: 20px;
+}
+p::first-line{
+    color: green;
+}
+.warning::before{
+    content:"warning";
+    font-weight: bold;
+    color: red;
+}
+.warning::after{
+    content:"be careful";
+    font-weight: bold;
+    color: blue;
+}
+::selection{
+    color: white;
+    background-color: red;
+}
+input[type="text"]{
+    border: 2px solid red;
+}
