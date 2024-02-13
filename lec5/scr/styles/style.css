@@ -57,3 +57,50 @@ p::first-line{
 input[type="text"]{
     border: 2px solid red;
 }
+.static{
+    position: static;
+    border: 3px solid green;
+}
+.relative{
+    position: relative;
+    border: 5px solid blue;
+    left: 50px;
+    top: 50px;
+    z-index: -1;
+    background-color: green;
+    color: white;
+}
+.fixed{
+    position: fixed;
+    background-color: yellow;
+    width: 50px;
+    bottom: 0px;
+}
+.absolute{
+    position: absolute;
+    background-color: aqua;
+    top: 50px;
+
+}
+img{
+    width: 100%;
+}
+.wrapper{
+    position: relative;
+}
+.image{
+    position: relative;
+    
+}
+
+.text-wrapper{
+    position: absolute;
+    color: white;
+    z-index: 9;
+    top: 0;
+}
+.sticky{
+    background-color: aquamarine;
+    position: sticky;
+    top: 50vh;
+}
